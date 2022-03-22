@@ -1,13 +1,13 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
-  name: web-app-cluster3
+  name: web-app-production
   namespace: web-app
   labels:
     deployment: hello
   annotations:
     apps.open-cluster-management.io/github-branch: master
-    apps.open-cluster-management.io/github-path: lab-5-assets/overlays/cluster3
+    apps.open-cluster-management.io/github-path: hub/rhacmgitopslab/lab-5-assets
 spec:
   channel:  web-app/web-app-channel
   placement: 

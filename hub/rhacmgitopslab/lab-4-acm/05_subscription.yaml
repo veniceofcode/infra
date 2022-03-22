@@ -7,10 +7,10 @@ metadata:
     app: httpd
   annotations:
     apps.open-cluster-management.io/github-branch: master
-    apps.open-cluster-management.io/github-path: hub/rhacmgitopslab/lab-4-assets
+    apps.open-cluster-management.io/github-path: lab-4-assets
 spec:
   channel:  simple-app/federation
   placement: 
     placementRef: 
       kind: PlacementRule
-      name: clarksdaleonly
+      name: cluster1only     

@@ -3,9 +3,9 @@ kind: PlacementRule
 metadata:
   labels:
     app: httpd
-  name: clarksdaleonly
+  name: cluster1only
   namespace: simple-app
 spec:
   clusterSelector:
     matchLabels:
-      clusterid: cluster1
+      clusterid: sandbox
