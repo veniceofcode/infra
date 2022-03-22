@@ -13,4 +13,4 @@ spec:
   placement: 
     placementRef: 
       kind: PlacementRule
-      name: clarksdale     
+      name: cluster1only     
