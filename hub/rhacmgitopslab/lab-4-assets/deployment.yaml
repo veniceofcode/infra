@@ -4,7 +4,7 @@ metadata:
   labels:
     app: httpd
   name: httpd
-  namespace: simple-app
+  namespace: tax-calculation-service
 spec:
   replicas: 1
   selector:
