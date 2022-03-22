@@ -3,7 +3,7 @@ kind: PlacementRule
 metadata:
   labels:
     app: httpd
-  name: cluster1only
+  name: clarksdaleonly
   namespace: simple-app
 spec:
   clusterSelector:
