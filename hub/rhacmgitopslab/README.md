@@ -20,6 +20,5 @@ We assume clusters are ready Red Hat ACM installed and you have access to cluste
 
 -----
 Disclaimer 
-This lab is RH ACM translated version of https://github.com/openshift/federation-dev . 
-Thanks to contributors of referenced lab. 
+This is an ongoing repo and updates will be done as needed.
 -----
